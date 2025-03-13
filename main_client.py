@@ -14,7 +14,7 @@ from telegram.ext import (
     ConversationHandler,
     CallbackContext,
 )
-from config import TELEGRAM_CLIENT_TOKEN, OPENAI_API_KEY, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD, YANDEX_MAPS_LINK
+from config import TELEGRAM_CLIENT_TOKEN, OPENAI_API_KEY, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD
 
 # Настройка OpenAI API
 openai.api_key = OPENAI_API_KEY
